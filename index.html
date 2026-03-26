@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub | Play & Upload HTML Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">Game<span>Hub</span></div>
+        <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="upload.html" class="upload-btn">Upload Game</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Your Ultimate <span>HTML5</span> Game Collection</h1>
+        <p>Explore, play, and share amazing web games from creators around the world.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for a game...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="game-grid" id="gameGrid">
+            <!-- Game Card 1 -->
+            <div class="game-card">
+                <div class="thumbnail">
+                    <img src="space_battle.png" alt="Space Battle">
+                    <div class="overlay">
+                        <button class="play-btn">Play Now</button>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>Space Battle</h3>
+                    <p>Arcade • Action</p>
+                </div>
+            </div>
+
+            <!-- Game Card 2 -->
+            <div class="game-card">
+                <div class="thumbnail">
+                    <img src="neon_maze.png" alt="Neon Maze">
+                    <div class="overlay">
+                        <button class="play-btn">Play Now</button>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>Neon Maze</h3>
+                    <p>Puzzle • Logic</p>
+                </div>
+            </div>
+
+            <!-- Game Card 3 -->
+            <div class="game-card">
+                <div class="thumbnail">
+                    <img src="pixel_runner.png" alt="Pixel Runner">
+                    <div class="overlay">
+                        <button class="play-btn">Play Now</button>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>Pixel Runner</h3>
+                    <p>Platformer • 8-Bit</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 GameHub. Built for creators.</p>
+    </footer>
+
+    <script src="games.js"></script>
+</body>
+</html>
