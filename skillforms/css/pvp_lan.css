@@ -1,0 +1,13 @@
+/* ═══════════════════════════════════════════════
+   SKILL FORMS — PvP LAN Mode Styles
+   ═══════════════════════════════════════════════ */
+
+/* PvP specific styles can be added here.
+   Most styles are currently in style.css or rendered on canvas. */
+
+.pvp-warning {
+    color: #ef4444;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
